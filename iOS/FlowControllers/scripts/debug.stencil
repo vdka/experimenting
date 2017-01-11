@@ -1,0 +1,8 @@
+
+{% for controller in types.classes %}
+extension {{ controller.name }} {
+    deinit {
+        log.info("deinit \(type(of: self))")
+    }
+}
+{% endfor %}

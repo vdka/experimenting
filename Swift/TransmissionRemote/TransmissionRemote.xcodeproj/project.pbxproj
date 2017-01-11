@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA10BDE91C6B6A2C00AF0AE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10BDE81C6B6A2C00AF0AE6 /* AppDelegate.swift */; };
+		AA10BDEB1C6B6A2C00AF0AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA10BDEA1C6B6A2C00AF0AE6 /* Assets.xcassets */; };
+		AA10BDEE1C6B6A2C00AF0AE6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA10BDEC1C6B6A2C00AF0AE6 /* MainMenu.xib */; };
+		AA10BDF61C6B6A8100AF0AE6 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA10BDF51C6B6A8100AF0AE6 /* CoreServices.framework */; };
+		AA10BDFA1C6BE3C800AF0AE6 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = AA10BDF91C6BE3C800AF0AE6 /* Cartfile */; };
+		AA5689471C6BE944001856C5 /* MagnetHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5689461C6BE944001856C5 /* MagnetHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA5689441C6BE932001856C5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA10BDE51C6B6A2C00AF0AE6 /* TransmissionRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransmissionRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA10BDE81C6B6A2C00AF0AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA10BDEA1C6B6A2C00AF0AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA10BDED1C6B6A2C00AF0AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA10BDEF1C6B6A2C00AF0AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA10BDF51C6B6A8100AF0AE6 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		AA10BDF91C6BE3C800AF0AE6 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		AA5689461C6BE944001856C5 /* MagnetHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagnetHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA10BDE21C6B6A2C00AF0AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA10BDF61C6B6A8100AF0AE6 /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA10BDDC1C6B6A2C00AF0AE6 = {
+			isa = PBXGroup;
+			children = (
+				AA10BDF91C6BE3C800AF0AE6 /* Cartfile */,
+				AA10BDF51C6B6A8100AF0AE6 /* CoreServices.framework */,
+				AA10BDE71C6B6A2C00AF0AE6 /* TransmissionRemote */,
+				AA10BDE61C6B6A2C00AF0AE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA10BDE61C6B6A2C00AF0AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA10BDE51C6B6A2C00AF0AE6 /* TransmissionRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA10BDE71C6B6A2C00AF0AE6 /* TransmissionRemote */ = {
+			isa = PBXGroup;
+			children = (
+				AA10BDE81C6B6A2C00AF0AE6 /* AppDelegate.swift */,
+				AA5689461C6BE944001856C5 /* MagnetHandler.swift */,
+				AA10BDEA1C6B6A2C00AF0AE6 /* Assets.xcassets */,
+				AA10BDEC1C6B6A2C00AF0AE6 /* MainMenu.xib */,
+				AA10BDEF1C6B6A2C00AF0AE6 /* Info.plist */,
+			);
+			path = TransmissionRemote;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA10BDE41C6B6A2C00AF0AE6 /* TransmissionRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA10BDF21C6B6A2C00AF0AE6 /* Build configuration list for PBXNativeTarget "TransmissionRemote" */;
+			buildPhases = (
+				AA10BDE11C6B6A2C00AF0AE6 /* Sources */,
+				AA10BDE21C6B6A2C00AF0AE6 /* Frameworks */,
+				AA10BDE31C6B6A2C00AF0AE6 /* Resources */,
+				AA5689441C6BE932001856C5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransmissionRemote;
+			productName = TransmissionRemote;
+			productReference = AA10BDE51C6B6A2C00AF0AE6 /* TransmissionRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA10BDDD1C6B6A2C00AF0AE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ethan Jackwitz";
+				TargetAttributes = {
+					AA10BDE41C6B6A2C00AF0AE6 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = AA10BDE01C6B6A2C00AF0AE6 /* Build configuration list for PBXProject "TransmissionRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA10BDDC1C6B6A2C00AF0AE6;
+			productRefGroup = AA10BDE61C6B6A2C00AF0AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA10BDE41C6B6A2C00AF0AE6 /* TransmissionRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA10BDE31C6B6A2C00AF0AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA10BDFA1C6BE3C800AF0AE6 /* Cartfile in Resources */,
+				AA10BDEB1C6B6A2C00AF0AE6 /* Assets.xcassets in Resources */,
+				AA10BDEE1C6B6A2C00AF0AE6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA10BDE11C6B6A2C00AF0AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA10BDE91C6B6A2C00AF0AE6 /* AppDelegate.swift in Sources */,
+				AA5689471C6BE944001856C5 /* MagnetHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA10BDEC1C6B6A2C00AF0AE6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA10BDED1C6B6A2C00AF0AE6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA10BDF01C6B6A2C00AF0AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA10BDF11C6B6A2C00AF0AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA10BDF31C6B6A2C00AF0AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = TransmissionRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ejackwitz.TransmissionRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA10BDF41C6B6A2C00AF0AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = TransmissionRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ejackwitz.TransmissionRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA10BDE01C6B6A2C00AF0AE6 /* Build configuration list for PBXProject "TransmissionRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA10BDF01C6B6A2C00AF0AE6 /* Debug */,
+				AA10BDF11C6B6A2C00AF0AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA10BDF21C6B6A2C00AF0AE6 /* Build configuration list for PBXNativeTarget "TransmissionRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA10BDF31C6B6A2C00AF0AE6 /* Debug */,
+				AA10BDF41C6B6A2C00AF0AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA10BDDD1C6B6A2C00AF0AE6 /* Project object */;
+}

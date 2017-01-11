@@ -1,0 +1,28 @@
+// Generated using SwiftGen, by O.Halligon — https://github.com/AliSoftware/SwiftGen
+
+import Foundation
+import UIKit
+
+{% if storyboards %}
+enum Storyboard: String {
+    {% for storyboard in storyboards %}
+    case {{ storyboard.name | swiftIdentifier | lowerFirstWord }} = "{{ storyboard.name }}"
+    {% endfor %}
+
+    var storyboard: UIStoryboard {
+      return UIStoryboard(name: rawValue, bundle: nil)
+    }
+}
+
+{% for storyboard in storyboards %}
+{% for scene in storyboard.scenes %}
+
+extension {{ scene.customClass }} {
+
+  static func from(storyboard: Storyboard) -> {{ scene.customClass }} {
+    return UIStoryboard(name: storyboard.rawValue, bundle: nil)
+      .instantiateViewController(withIdentifier: "{{ scene.identifier }}") as! {{ scene.customClass }}
+  }
+}
+{% endfor %}{% endfor %}
+{% endif %}
