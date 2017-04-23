@@ -35,7 +35,7 @@ final class DashboardViewController: UIViewController {
 
         let photoNib = UINib(nibName: "ImageCell", bundle: nil)
         tableView.register(photoNib, forCellReuseIdentifier: "Cell")
-        tableView.rowHeight = 377
+        tableView.rowHeight = 308
 
         self.filter = .none // trigger the didSet
     }
